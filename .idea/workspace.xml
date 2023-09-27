@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49dc4e69-4b80-4a45-9fb3-eaadda240d58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/InsertionSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +145,7 @@
       <workItem from="1695838475313" duration="5300000" />
       <workItem from="1695844594118" duration="732000" />
       <workItem from="1695845493748" duration="497000" />
-      <workItem from="1695846000132" duration="1069000" />
+      <workItem from="1695846000132" duration="1551000" />
     </task>
     <servers />
   </component>
@@ -158,7 +157,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/example/InsertionSortTest.java</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
