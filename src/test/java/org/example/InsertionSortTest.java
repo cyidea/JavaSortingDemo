@@ -13,6 +13,8 @@ class InsertionSortTest {
     @Test
     void sorting() {
         List<Integer> input = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> result = Arrays.asList(1, 2, 3, 4, 5);
+
         InsertionSort<Integer> intsorter = new InsertionSort<>();
 
         Comparator<Integer> comparator = new Comparator<Integer>() {
@@ -25,6 +27,6 @@ class InsertionSortTest {
 
         System.out.println("test sorting......");
 
-        assertThat(input).isEqualTo(input);
+        assertThat(input).isEqualTo(result);
     }
 }
