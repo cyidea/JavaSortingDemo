@@ -1,4 +1,4 @@
-package org.example;
+package com.sorting;
 
 import java.util.Comparator;
 import java.util.List;
