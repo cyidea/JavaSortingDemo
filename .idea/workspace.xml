@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49dc4e69-4b80-4a45-9fb3-eaadda240d58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/InsertionSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/InsertionSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sorting/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sorting/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -40,6 +44,9 @@
         <option name="url" value="git@github.com:cyidea/JavaSortingDemo.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -81,10 +88,26 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sorting" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InsertionSortTest.sorting">
+  <component name="RunManager" selected="JUnit.MergeSortTest.mergeSort">
+    <configuration name="InsertionSortTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSortingDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.InsertionSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSortingDemo" />
       <extension name="coverage">
@@ -116,6 +139,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSortingDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.MergeSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSortTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSortingDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.MergeSortTest" />
+      <option name="METHOD_NAME" value="mergeSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,6 +183,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTest.mergeSort" />
+        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest (1)" />
         <item itemvalue="JUnit.InsertionSortTest.sorting" />
         <item itemvalue="JUnit.InsertionSortTest" />
       </list>
@@ -145,7 +202,7 @@
       <workItem from="1695838475313" duration="5300000" />
       <workItem from="1695844594118" duration="732000" />
       <workItem from="1695845493748" duration="497000" />
-      <workItem from="1695846000132" duration="1551000" />
+      <workItem from="1695846000132" duration="11421000" />
     </task>
     <servers />
   </component>
@@ -156,11 +213,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/InsertionSortTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/sorting/InsertionSortTest.java</url>
           <line>28</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sorting/MergeSortTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sorting/MergeSort.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="i" language="JAVA" />
+        <watch expression="value1" language="JAVA" />
+        <watch expression="temp" language="JAVA" />
+        <watch expression="secondIndexStart" language="JAVA" />
+        <watch expression="secondHalf.size()" language="JAVA" />
+        <watch expression="firstHalf.size()" language="JAVA" />
+        <watch expression="i" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
