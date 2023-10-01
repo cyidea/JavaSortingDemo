@@ -15,7 +15,7 @@ class MergeSortTest {
         System.out.println("test merge sorting...");
 
         List<Integer> input = Arrays.asList(1, 2, 3, 4, 5);
-        List<Integer> result = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> expected = Arrays.asList(1, 2, 3, 4, 5);
 
         MergeSort<Integer> sorter = new MergeSort<>();
 
@@ -26,8 +26,8 @@ class MergeSortTest {
             }
         };
 
-        sorter.sorting(input, comparator);
-        assertThat(input).isEqualTo(result);
+        List<Integer> result = sorter.sorting(input, comparator);
+        assertThat(result).isEqualTo(expected);
 
         List<Integer> input2 = Arrays.asList(1000, 44, 333, 4, 5);
         List<Integer> result2 = Arrays.asList(4, 5, 44, 333, 1000);

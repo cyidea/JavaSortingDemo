@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49dc4e69-4b80-4a45-9fb3-eaadda240d58" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sorting/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sorting/HeapSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sorting/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sorting/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sorting/MergeSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +86,16 @@
       <recent name="" />
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sorting" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sorting" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MergeSortTest">
-    <configuration name="InsertionSortTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HeapSortTest">
+    <configuration name="HeapSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSortingDemo" />
       <extension name="coverage">
         <pattern>
@@ -100,22 +104,54 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sorting" />
-      <option name="MAIN_CLASS_NAME" value="com.sorting.InsertionSortTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.HeapSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest.sorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeapSortTest.getTopElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaSortingDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="com.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.InsertionSortTest" />
+      <option name="PACKAGE_NAME" value="com.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.HeapSortTest" />
+      <option name="METHOD_NAME" value="getTopElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSortTest.reversedsort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSortingDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.HeapSortTest" />
+      <option name="METHOD_NAME" value="reversedsort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSortTest.sorting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaSortingDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sorting" />
+      <option name="MAIN_CLASS_NAME" value="com.sorting.HeapSortTest" />
       <option name="METHOD_NAME" value="sorting" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,38 +173,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.mergeIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSortingDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sorting" />
-      <option name="MAIN_CLASS_NAME" value="com.sorting.MergeSortTest" />
-      <option name="METHOD_NAME" value="mergeIt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSortTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaSortingDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.sorting" />
-      <option name="MAIN_CLASS_NAME" value="com.sorting.MergeSortTest" />
-      <option name="METHOD_NAME" value="mergeSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeapSortTest" />
+        <item itemvalue="JUnit.HeapSortTest.getTopElements" />
         <item itemvalue="JUnit.MergeSortTest" />
-        <item itemvalue="JUnit.MergeSortTest.mergeSort" />
-        <item itemvalue="JUnit.MergeSortTest.mergeIt" />
-        <item itemvalue="JUnit.InsertionSortTest (1)" />
-        <item itemvalue="JUnit.InsertionSortTest.sorting" />
+        <item itemvalue="JUnit.HeapSortTest.sorting" />
+        <item itemvalue="JUnit.HeapSortTest.reversedsort" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +205,7 @@
       <workItem from="1695838475313" duration="5300000" />
       <workItem from="1695844594118" duration="732000" />
       <workItem from="1695845493748" duration="497000" />
-      <workItem from="1695846000132" duration="21005000" />
+      <workItem from="1695846000132" duration="28978000" />
     </task>
     <servers />
   </component>
@@ -217,14 +221,14 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sorting/MergeSortTest.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/sorting/HeapSortTest.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sorting/MergeSortTest.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/sorting/HeapSortTest.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -237,6 +241,7 @@
         <watch expression="secondHalf.size()" language="JAVA" />
         <watch expression="firstHalf.size()" language="JAVA" />
         <watch expression="i" language="JAVA" />
+        <watch expression="data.get(i)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
